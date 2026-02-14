@@ -134,7 +134,7 @@
         <div class="container">
             <header style="text-align:center; padding:50px 0;">
                 <h2 class="main-title">حكايتنا ❤️</h2>
-                <p style="opacity:0.8; margin-top:10px;">كل لحظة معاكي يا كرميلا هي عمر جديد</p>
+                <p style="opacity:0.8; margin-top:10px;">كل لحظة معاكي يا كوتي 🤎 هي عمر جديد</p>
             </header>
 
             <div style="text-align:center; color:var(--gold); font-size:13px; letter-spacing:4px; font-weight: 700;">منذ أن بدأت القصة</div>
@@ -198,7 +198,7 @@
                 <p style="font-size:16px; line-height:1.8; color:#eee; font-style:italic;">
                     يا أجمل حاجة حصلتلي في الدنيا دي ❤️ من أول يوم شوفتك فيه وانا حبيتك حبيتك من كل قلبي 💫 كل عيد حب واحنا دايما سوا… كل لحظة بقضيها معاكي بتبقي ذكري محفورة في قلبي ومش هنساها أبداً❣️عارف إن الكلام مهما كان مش هيوصف حبي ليكي وهفضل دايما سندك وأمانك ومأمنك وفي ضهرك في اي حاجه بحبك تعالي نكمل مع بعض ونعيش كل لحظة سوا🌟
                 </p>
-                <div style="margin-top:25px; font-weight:900; color:var(--gold); font-size: 20px;">بحبك يا كرميلا.. للأبد ❤️</div>
+                <div style="margin-top:25px; font-weight:900; color:var(--gold); font-size: 20px;">بحبك يا غزالي للأبد ❤️</div>
                 <button onclick="location.reload()" style="background:none; border:none; color:var(--primary); margin-top:35px; font-size:13px; text-decoration:underline; cursor:pointer; font-weight: 600;">العودة للبداية</button>
             </div>
         </div>
@@ -236,13 +236,12 @@
         }
 
         function startCounter() {
-            // التاريخ المطلوب: 18 أغسطس 2025
             const start = new Date("2025-08-18T00:00:00");
             setInterval(() => {
                 const now = new Date();
                 const diff = now - start;
                 
-                if (diff < 0) return; // لو التاريخ لسه مجاش
+                if (diff < 0) return;
 
                 document.getElementById('years').innerText = Math.floor(diff / (1000*60*60*24*365.25));
                 document.getElementById('months').innerText = Math.floor((diff % (1000*60*60*24*365.25)) / (1000*60*60*24*30.44));
